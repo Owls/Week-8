@@ -4,7 +4,7 @@
   "description": "",
   "main": "hw1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Owls/Week-8/issues"
   },
-  "homepage": "https://github.com/Owls/Week-8#readme"
+  "homepage": "https://github.com/Owls/Week-8#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.6.3"
+  }
 }
